@@ -119,3 +119,10 @@ from rectangle import perimeter
 rectangle_perimeter = perimeter(5, 6)
 print(rectangle_perimeter) # output: 22
 ```
+
+#### Testing protocol
+* Bug report #1: when the function in square module perimeter is called with a negative argument, a negative perimeter is returned
+* Bug report #2: when the function in square module perimeter is called with a "Простите, а где здесь туалет?" argument, it is returned string instead of return exception
+* Bug report #3: when the function in rectangle module perimeter is called with a number and string arguments, it is crashed
+* Bug report #4: when the function in square module perimeter is called with a zero argument, it return 20 instead of 0
+* 
